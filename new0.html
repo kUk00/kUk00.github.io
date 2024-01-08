@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ремонт Mercedes-Benz</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<!-- Normalize -->
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!-- Owl -->
+<link rel="stylesheet" type="text/css" href="css/owl.css">
+<!-- Animate.css -->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+<!-- Elegant Icons -->
+<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+<!-- Main style -->
+<link rel="stylesheet" type="text/css" href="css/cardio.css">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+</head>
+<body>
+
+<nav class="navbar" style="background-color: rgba(128, 128, 128, 0.5);">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-nav">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html#my-anchor">О нас</a></li>
+                <li><a href="index.html#my-anchor2">Цены</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Оставить заявку</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content modal-popup">
+            <a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+            <h3 class="white">Оставить заявку</h3>
+            <form method="POST" action="engine.php" class="popup-form">
+                <input type="text" class="form-control form-white" placeholder="Full Name" name="fio">
+                <input type="text" class="form-control form-white" placeholder="Email Address" name="email">
+                <input type="text" class="form-control form-white" placeholder="Phone" name="phone">
+                <div class="checkbox-holder text-left">
+                    <div class="checkbox">
+                        <input type="checkbox" value="None" id="squaredOne" name="check" />
+                        <label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong></span></label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-submit">Отравить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<section id="services" class="section section-padded">
+    <div class="container">
+        <div class="row text-center title">
+            <h2>Ремонт Mercedes-Benz</h2>
+            <h4 class="light muted">Выбирайте надежность и качество - выбирайте профессиональное обслуживание
+                для Вашего Mercedes-Benz</h4>
+        </div>
+        <br><br><br>
+    <div id="about" class="about layout_padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="full margin_top_20">
+                        <p><h1>Правильное решение для каждой проблемы</h1></p>
+                        <p>Наши квалифицированные специалисты строго соблюдают разработанные заводом-изготовителем регламенты выполнения работ, используя рекомендованные специнструменты и материалы, чтобы Ваш высокотехнологичный автомобиль оставался Мерседесом и сохранял высочайшую производительность на дороге.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img class="img-responsive" src="img/repair1.jpg" alt="#" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div id="about2" class="about layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="img/repair2.jpg" alt="#" />
+                </div>
+                <div class="col-md-6">
+                    <div class="full margin_top_20">
+                        <p><h1>Гарантия на работы и запасные части 2 года</h1></p>
+                        <p>При обслуживании Вашего автомобиля в нашем сервисном центре, Вы получаете гарантию 24 месяца на работы, запчасти и материалы, независимо от того, какой ремонт требуется - коробки передач, кондиционера, подвески, рулевого управления и прочего - Будьте уверены в надежности и долговечности наших услуг!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cut cut-bottom"></div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-center-mobile">
+                <h3 class="white">Забронируйте бесплатную консультацию!</h3>
+                <h5 class="light regular light-white">Вам прояснят все моменты связанные с ремонтом и диагностикой</h5>
+                <a href="#" class="btn btn-blue ripple trial-button">Вернуться к заявке</a>
+            </div>
+            <div class="col-sm-6 text-center-mobile">
+                <h3 class="white">Часы работы <span class="open-blink"></span></h3>
+                <div class="row opening-hours">
+                    <div class="col-sm-6 text-center-mobile">
+                        <h5 class="light-white light">Понедельник - Пятница</h5>
+                        <h3 class="regular white">8:30 - 20:00</h3>
+                    </div>
+                    <div class="col-sm-6 text-center-mobile">
+                        <h5 class="light-white light">Суббота - Воскресенье</h5>
+                        <h3 class="regular white">10:00 - 16:00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-footer text-center-mobile">
+            <div class="col-sm-8">
+                <p>&copy; 2015 All Rights Reserved. Powered by <a href="http://www.phir.co/">PHIr</a> exclusively for <a href="http://tympanus.net/codrops/">Codrops</a></p>
+            </div>
+            <div class="col-sm-4 text-right text-center-mobile">
+                <ul class="social-footer">
+                    <li><a href="https://www.facebook.com/MercedesBenz/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/MercedesBenz"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/typewriter.js"></script>
+<script src="js/jquery.onepagenav.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
